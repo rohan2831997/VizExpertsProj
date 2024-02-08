@@ -111,7 +111,7 @@ int main()
 	readInputfromFile();
 
 	//curvemaker
-	curveMaker c(vertices,0.01f);
+	curveMaker c(vertices,0.05f);
 
 	// Main while loop
 	while (!glfwWindowShouldClose(window))
